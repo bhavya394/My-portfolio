@@ -77,6 +77,10 @@ export default {
 						height: 'var(--radix-accordion-content-height)'
 					}
 				},
+				'text-glow': {
+					'0%': { textShadow: '0 0 5px #fff' },
+					'100%': { textShadow: '0 0 20px #ff00ff, 0 0 30px #ff00ff' },
+				},
 				'accordion-up': {
 					from: {
 						height: 'var(--radix-accordion-content-height)'
@@ -88,7 +92,8 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'text-glow': 'text-glow 3s ease-in-out infinite alternate',
 			}
 		}
 	},

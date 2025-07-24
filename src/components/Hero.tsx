@@ -40,7 +40,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <a
-              href="https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/bhavya_resume.pdf?alt=media&token=9c677669-4e42-47c0-ba04-df5a65034570"
+              href="https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/Bhavya_Sai_Sree_Yatham_-_Java.pdf?alt=media&token=9f41e11f-b02b-40ff-a5ac-ea7b783c6b91"
               target="_blank"
               rel="noopener noreferrer"
             >
